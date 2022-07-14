@@ -2,5 +2,5 @@
 
 Clone the repository and run the below commands.
 
-mvn clean install
-Run as Java application
+--mvn clean install
+--Run as Java application
