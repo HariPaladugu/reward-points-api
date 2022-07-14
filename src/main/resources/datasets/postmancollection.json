@@ -1,0 +1,141 @@
+curl --location --request POST 'http://localhost:8080/calculate-reward-points' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "customerTransactionsList": [
+        {
+            "customerId": "1246",
+            "transactions": [
+                {
+                    "saleDate": "2022-01-02",
+                    "amount": 133320.00
+                },
+                {
+                    "saleDate": "2022-01-08",
+                    "amount": 140.40
+                },
+                {
+                    "saleDate": "2022-01-08",
+                    "amount": 90.56
+                },
+                {
+                    "saleDate": "2022-01-08",
+                    "amount": 40.56
+                },
+                {
+                    "saleDate": "2022-02-08",
+                    "amount": 160.56
+                },
+                {
+                    "saleDate": "2022-02-22",
+                    "amount": 110.96
+                },
+                {
+                    "saleDate": "2022-02-26",
+                    "amount": 80.76
+                },
+                {
+                    "saleDate": "2022-03-06",
+                    "amount": 68.76
+                },
+                {
+                    "saleDate": "2022-03-16",
+                    "amount": 138.46
+                },
+                {
+                    "saleDate": "2022-03-27",
+                    "amount": 188.46
+                }
+            ]
+        },
+        {
+            "customerId": "9999",
+            "transactions": [
+                {
+                    "saleDate": "2022-01-02",
+                    "amount": 170.00
+                },
+                {
+                    "saleDate": "2022-01-08",
+                    "amount": 190.40
+                },
+                {
+                    "saleDate": "2022-01-08",
+                    "amount": 80.56
+                },
+                {
+                    "saleDate": "2022-01-08",
+                    "amount": 50.56
+                },
+                {
+                    "saleDate": "2022-02-08",
+                    "amount": 190.56
+                },
+                {
+                    "saleDate": "2022-02-22",
+                    "amount": 130.96
+                },
+                {
+                    "saleDate": "2022-02-26",
+                    "amount": 76.76
+                },
+                {
+                    "saleDate": "2022-02-06",
+                    "amount": 98.76
+                },
+                {
+                    "saleDate": "2022-02-16",
+                    "amount": 148.46
+                },
+                {
+                    "saleDate": "2022-02-27",
+                    "amount": 148.46
+                }
+            ]
+        },
+        {
+            "customerId": "1111",
+            "transactions": [
+                {
+                    "saleDate": "2021-01-02",
+                    "amount": 154.00
+                },
+                {
+                    "saleDate": "2021-01-08",
+                    "amount": 178.40
+                },
+                {
+                    "saleDate": "2021-01-08",
+                    "amount": 4560.56
+                },
+                {
+                    "saleDate": "2021-01-08",
+                    "amount": 4670.56
+                },
+                {
+                    "saleDate": "2021-01-08",
+                    "amount": 1780.56
+                },
+                {
+                    "saleDate": "2021-02-22",
+                    "amount": 1140.96
+                },
+                {
+                    "saleDate": "2021-02-26",
+                    "amount": 63.76
+                },
+                {
+                    "saleDate": "2021-02-06",
+                    "amount": 68.96
+                },
+                {
+                    "saleDate": "2021-03-16",
+                    "amount": 13648.46
+                },
+                {
+                    "saleDate": "2021-03-27",
+                    "amount": 16788.46
+                }
+            ]
+        }
+    ]
+}'

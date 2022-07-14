@@ -1,0 +1,30 @@
+{
+    "customerRewardResponse": [
+        {
+            "customerId": "1246",
+            "totalRewards": 267291,
+            "monthlyRewards": {
+                "January": 266651,
+                "February": 270,
+                "March": 370
+            }
+        },
+        {
+            "customerId": "9999",
+            "totalRewards": 1156,
+            "monthlyRewards": {
+                "January": 450,
+                "February": 706
+            }
+        },
+        {
+            "customerId": "1111",
+            "totalRewards": 84667,
+            "monthlyRewards": {
+                "January": 21934,
+                "February": 2161,
+                "March": 60572
+            }
+        }
+    ]
+}
